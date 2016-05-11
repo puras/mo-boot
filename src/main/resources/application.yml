@@ -13,4 +13,4 @@ spring:
 mybatis:
   config-location: "classpath:/mybatis-config.xml"
   type-aliases-package: me.puras.boot.domain
-  mapper-locations: ["classpath:/me/puras/boot/persistence/**/*Mapper.xml", "classpath:/net/mooko/common/persistence/**/*Mapper.xml"]
+  mapper-locations: ["classpath:/me/puras/boot/persistence/**/*Mapper.xml", "classpath:/me/puras/common/persistence/**/*Mapper.xml"]

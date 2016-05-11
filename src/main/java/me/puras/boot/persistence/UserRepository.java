@@ -1,7 +1,7 @@
 package me.puras.boot.persistence;
 
 import me.puras.boot.domain.User;
-import net.mooko.common.persistence.CrudRepository;
+import me.puras.common.persistence.CrudRepository;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
